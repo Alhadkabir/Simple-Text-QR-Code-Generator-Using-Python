@@ -12,8 +12,8 @@ url = pyqrcode.create(text)
 url.svg(file_name_svg, scale=8)
 url.svg(file_name_png, scale=10)
 
-os.mkdir(fr"C:\Users\Md. Alhad Kabir\Desktop\{title}") // Your output file location
+os.mkdir(fr"C:\Users\Md. Alhad Kabir\Desktop\{title}") # Your output file location
 
-shutil.move(file_name_png, fr"C:\Users\Md. Alhad Kabir\Desktop\{title}") // Your output file location
-shutil.move(file_name_svg, fr"C:\Users\Md. Alhad Kabir\Desktop\{title}") // Your output file location
+shutil.move(file_name_png, fr"C:\Users\Md. Alhad Kabir\Desktop\{title}") # Your output file location
+shutil.move(file_name_svg, fr"C:\Users\Md. Alhad Kabir\Desktop\{title}") # Your output file location
 
